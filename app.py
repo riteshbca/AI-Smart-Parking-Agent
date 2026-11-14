@@ -201,8 +201,6 @@ with tab1:
                 else:
                     st.info("No suitable slots were found.")
 
-            st.rerun()
-
 
 # -------------------------------
 # RELEASE PARKING
@@ -252,7 +250,6 @@ with tab2:
 
                     break
 
-            st.rerun()
 
     else:
         st.info("There are no occupied parking slots to release.")
